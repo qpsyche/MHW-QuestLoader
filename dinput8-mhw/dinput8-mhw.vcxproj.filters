@@ -41,6 +41,7 @@
     <None Include="dinput8.def">
       <Filter>Source Files</Filter>
     </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dll.h">
