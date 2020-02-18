@@ -18,7 +18,7 @@ HOOKFUNC(AddPartTimer, void*, void* timerMgr, unsigned int index, float timerSta
 {
 	float* duration = offsetPtr<float>(timerMgr, 0x4a0);
 	LOG(INFO) << "AddPArtTimer Increasing tenderize timer duration";
-	*duration = 120;
+	*duration = 999;
 	return originalAddPartTimer(timerMgr, index, timerStart);
 }
 
